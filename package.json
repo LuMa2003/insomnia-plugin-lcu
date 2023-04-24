@@ -1,42 +1,30 @@
 {
-  "name": "insomnia-plugin-valorant",
-  "version": "1.1.2",
-  "description": "Adds template tags to Insomnia with Valorant data",
-  "bugs": {
-    "url": "https://github.com/techchrism/insomnia-plugin-valorant/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/techchrism/insomnia-plugin-valorant.git"
-  },
-  "main": "plugin.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "link-windows": "mklink /J \"%APPDATA%/Insomnia/plugins/insomnia-plugin-valorant\" \".\""
-  },
-  "keywords": [
-    "Valorant",
-    "Insomnia"
-  ],
-  "author": "techchrism",
-  "license": "MIT",
-  "insomnia": {
-    "name": "valorant",
-    "displayName": "Valorant",
-    "description": "Add template tags with Valorant data",
-    "publisher": {
-      "name": "techchrism"
+    "name": "insomnia-plugin-lcu",
+    "version": "1.0.0",
+    "description": "Adds template tags to Insomnia with LCU data",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LuMa2003/insomnia-plugin-lcu.git"
     },
-    "applications": {
-      "core": "*"
+    "main": "plugin.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "League of Legends",
+        "Insomnia"
+    ],
+    "author": "LuMA",
+    "license": "MIT",
+    "insomnia": {
+        "name": "lcu",
+        "displayName": "LCU",
+        "description": "Add template tags with LCU data",
+        "publisher": {
+            "name": "LuMa"
+        },
+        "applications": {
+            "core": "*"
+        }
     }
-  },
-  "dependencies": {
-    "esm": "^3.2.25",
-    "event-stream": "^4.0.1",
-    "fetch-cookie": "^1.0.0",
-    "node-fetch": "^2.6.1",
-    "tough-cookie": "^4.0.0",
-    "ws": "^7.5.1"
-  }
 }
